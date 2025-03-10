@@ -1,5 +1,5 @@
 # Build the application
-FROM maven:3.8.6-jdk-17 AS build
+FROM 3.8.5-openjdk-17 AS build
 WORKDIR /app
 # Copy the Maven project files
 COPY pom.xml .
